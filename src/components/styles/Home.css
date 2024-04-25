@@ -1,0 +1,48 @@
+.card {
+    border: none;
+    overflow: hidden;
+    max-width: 100%; /* Ensure card doesn't exceed parent width */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-cover {
+    height: 400px;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+  }
+  
+  .card-body {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .card-cover {
+      height: 300px;
+    }
+  }
+  .card-cover {
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+  }
+    
+  
+  .caros img{
+    height: 750px;
+    width: 100%;
+}

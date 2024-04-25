@@ -1,0 +1,79 @@
+/* styles/Orders.css */
+
+/* Container for the entire product section */
+.purchase {
+    padding: 20px; /* Add padding around the products */
+  }
+  
+  /* Styling for each product container */
+  .product-top {
+    position: relative; /* Positioning for the product image and overlay */
+    overflow: hidden; /* Hide overflowing content */
+    border-radius: 8px; /* Rounded corners for the product container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  /* Product image style */
+  .product-top img {
+    width: 100%; /* Ensure the image fills its container */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+  }
+  
+  /* Scale up the image on hover */
+  .product-top:hover img {
+    transform: scale(1.05); /* Increase size by 5% on hover */
+  }
+  
+  /* Styling for the overlay containing icons */
+  .overlay {
+    position: absolute; /* Position relative to the product container */
+    bottom: 0; /* Align the overlay to the bottom of the container */
+    left: 0;
+    right: 0;
+    padding: 10px; /* Padding for the overlay */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+  }
+  
+  /* Styling for icons within the overlay */
+  .overlay .iconscartplus,
+  .overlay .iconsheart,
+  .overlay .iconsshare {
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin-right: 10px; /* Spacing between icons */
+    transition: transform 0.3s ease; /* Smooth transform transition */
+  }
+  
+  /* Show overlay on hover */
+  .product-top:hover .overlay {
+    opacity: 1; /* Make overlay visible on hover */
+  }
+  
+  /* Styling for the product details container */
+  .product-bottom {
+    padding: 20px; /* Padding around the product details */
+    background-color: #ffffff; /* White background for product details */
+    border-radius: 0 0 8px 8px; /* Rounded corners, excluding top */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow on bottom */
+  }
+  
+  /* Styling for product titles */
+  .product-bottom h3 {
+    margin-bottom: 10px; /* Spacing below the title */
+    font-size: 20px; /* Larger font size for titles */
+  }
+  
+  /* Styling for product prices */
+  .product-bottom h4 {
+    margin-bottom: 20px; /* Spacing below the price */
+    font-weight: bold; /* Bold font for prices */
+  }
+  
+  /* Styling for the "BUY NOW" button */
+  .product-bottom Button {
+    margin-top: 10px; /* Spacing above the button */
+    width: 100%; /* Button width spanning the entire container */
+  }
+  

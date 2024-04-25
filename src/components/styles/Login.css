@@ -1,0 +1,12 @@
+/* styles/Login.css */
+
+/* Login form styles */
+.LoginForm {
+    height: 500px;
+    width: 650px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(229, 232, 214);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Dark box shadow */
+  }
+  
