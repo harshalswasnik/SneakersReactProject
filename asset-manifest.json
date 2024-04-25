@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SneakersReactProject/static/css/main.7310697a.css",
+    "main.js": "/SneakersReactProject/static/js/main.79443cf5.js",
+    "static/js/787.142da1d4.chunk.js": "/SneakersReactProject/static/js/787.142da1d4.chunk.js",
+    "static/media/caro2.jpg": "/SneakersReactProject/static/media/caro2.487cac34a4b132a54df8.jpg",
+    "static/media/caro1.jpg": "/SneakersReactProject/static/media/caro1.03c8143ef3341d98f8d3.jpg",
+    "static/media/maleshoe.png": "/SneakersReactProject/static/media/maleshoe.b126b5fa18f9e4d213c3.png",
+    "static/media/kidsshoe.png": "/SneakersReactProject/static/media/kidsshoe.1a3710dd88e2c3f626ff.png",
+    "static/media/caro3.jpg": "/SneakersReactProject/static/media/caro3.0c2c614e64e9af2c9eed.jpg",
+    "static/media/womenshoe.png": "/SneakersReactProject/static/media/womenshoe.a118585d93b7b73e1fe0.png",
+    "static/media/bluelogo.png": "/SneakersReactProject/static/media/bluelogo.0e1d00879961b506bc49.png",
+    "static/media/pay.png": "/SneakersReactProject/static/media/pay.47ad3e696f50516da1b3.png",
+    "index.html": "/SneakersReactProject/index.html",
+    "main.7310697a.css.map": "/SneakersReactProject/static/css/main.7310697a.css.map",
+    "main.79443cf5.js.map": "/SneakersReactProject/static/js/main.79443cf5.js.map",
+    "787.142da1d4.chunk.js.map": "/SneakersReactProject/static/js/787.142da1d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7310697a.css",
+    "static/js/main.79443cf5.js"
+  ]
+}
